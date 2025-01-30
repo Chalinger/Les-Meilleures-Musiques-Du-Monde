@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind&family=Montserrat+Alternates:wght@300;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,400;1,800&display=swap"
+        rel="stylesheet">
+    <title>Les Meilleurs Musiques Du Monde</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Les Meilleurs Musiques Du Monde</h1>
+    </header>
+
+    <div id="main"></div> <!-- Div dans laquelle sera généré tout le code HTML grâce au code JavaScript -->
+
+    <div id="previsualisation">
+        <label for="button-add-image-album" id="new-image-album">
+            <div id="no-image-album">
+                <img src="img/bouton_plus.png" id="add-image-album">
+            </div>
+        </label>
+        <input type="file" id="button-add-image-album" accept="image/*">
+        <div id="audio-file-target"></div>
+        <div class="details-add-music">
+            <div class="texts">
+                <h2 id="titleTarget">Titre</h2>
+                <h2 id="tiretTarget">&nbsp;-&nbsp;</h2>
+                <h2 id="artisteTarget">Artiste</h2>
+                <button class="button" id="music_6" type="button">⏵</button>
+                <p id="descriptionTarget">Description a saisir</p>
+            </div>
+            <div class="logos">
+                <div id="spotifyID"></div>
+                <div id="deezerID"></div>
+                <div id="apple_musicID"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="formulaire">
+        <img src="img/croix_exit.png" class="croix_exit-formulaire">
+        <h1>Ajoutez votre musique préférée !</h1>
+        <form>
+            <div id="left-side">
+                <label for="titre">Titre de la musique</label>
+                <br>
+                <input type="text" id="titre" class="textarea" placeholder="Titre">
+                <br>
+                <label for="artiste">Compositeur</label>
+                <br>
+                <input type="text" id="artiste" class="textarea" placeholder="Artiste">
+                <br>
+                <label for="descriptionMusique">Description</label>
+                <br>
+                <textarea name="descriptionMusique" id="descriptionMusique" class="textarea"
+                    placeholder="J'aime cette musique car..."></textarea>
+            </div>
+            <div id="right-side">
+                <label for="text-lien-spotify">Lien Spotify</label>
+                <br>
+                <input type="text" id="text-lien-spotify" class="textarea" placeholder="https://...">
+                <br>
+                <label for="text-lien-deezer">Lien Deezer</label>
+                <br>
+                <input type="text" id="text-lien-deezer" class="textarea" placeholder="https://...">
+                <br>
+                <label for="text-lien-apple-music">Lien Apple Music</label>
+                <br>
+                <input type="text" id="text-lien-apple-music" class="textarea" placeholder="https://...">
+                <label for="add-music">
+                    <div id="fichier-audio">
+                        <h2>Fichier Audio</h2>
+                        <div id="name-file"></div>
+                    </div>
+                </label>
+                <input type="file" id="add-music" accept="audio/*">
+            </div>
+        </form>
+        <div id="submit-button">
+            <h2>Creer votre post</h2>
+        </div>
+    </div>
+
+    <div id="open-popup-formulaire">
+        <img src="img/bouton_plus.png" id="button-plus">
+    </div>
+
+    <br>
+
+    <footer>
+        <p>© 2025 <a href="#" id="open-popup-mention-legale" class="lien">Victor LE CLAIRE</a>. Tous droits réservés.
+
+            Ce site web est protégé par les lois sur la propriété intellectuelle.</p>
+    </footer>
+
+    <div id="popup-mention-legale">
+        <img src="img/croix_exit.png" class="croix_exit">
+        <div class="popup-content-mention-legale">
+            <h1>Projet</h1>
+            <h3>SAE 1.05 - Production d'un site web</h3>
+            <h3>Annee 1 - BUT MMI - Champs sur Marne</h3>
+            <h3>2024 - 2025</h3>
+            <br>
+            <h1>Contact</h1>
+            <h3>NOM: LE CLAIRE</h3>
+            <h3>Prenom: Victor</h3>
+            <h3>Telephone: +33 7 83 45 37 32</h3>
+            <br>
+            <h1>Politique de traitement des donnees</h1>
+            <h3>E-mail: <a href="mailto:victor.le.claire@icloud.com" class="lien">victor.le.claire@icloud.com</a></h3>
+            <br>
+            <h1>Hébergeur</h1>
+            <h3>o2switch</h3>
+            <h3>222-224 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand, France</h3>
+            <h3>Téléphone : +33 4 44 44 60 40</h3>
+            <h3>Site web : <a href="www.o2switch.fr" class="lien">www.o2switch.fr</a></h3>
+        </div>
+    </div>
+
+    <!-- Liaisons aves les fichiers JavaScript et Json -->
+    <script src="script.js"></script>
+    <script src="musiques.json"></script>
+</body>
+
+</html>

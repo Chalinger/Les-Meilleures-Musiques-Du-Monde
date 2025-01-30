@@ -1,0 +1,62 @@
+[
+    {
+        "titre": "PROUD",
+        "artiste": "Kevin Walkman",
+        "duree": "3:19",
+        "description": "Proud raconte l'histoire de Kevin Walkman, un jeune homme beaucoup trop dramatique, qui s'amourache d'une personne à peine intéressée par lui. Walkman donne l'impression, aux yeux des autres, que tout va bien mentalement en fréquentant des amis communs avec la personne qui l'a rejeté, alors qu'à l'intérieur, il lutte pour comprendre ce qui s'est passé.",
+        "song": "Proud.mp3",
+        "image": "proud",
+        "mentionLegales": "https://soundcloud.com/kevwalkman/proud-1",
+        "spotify": "https://open.spotify.com/intl-fr/album/3eUxBO0HdQrauuHaitTlsv",
+        "deezer": "https://www.deezer.com/fr/album/415921257",
+        "apple_music": "https://music.apple.com/us/album/proud-single/1676531760"
+    },
+    {
+        "titre": "SHINIGAMI",
+        "artiste": "Keanu Bicol",
+        "duree": "2:47",
+        "description": "Keanu est poursuivi par un dieu de la mort, un shinigami. Il est terrifié et ne sait pas quand il pourra échapper à son tourment. Il montre son envie de vivre et les raisons, comme les reves.",
+        "song": "SHINIGAMI.mp3",
+        "image": "shinigami",
+        "mentionLegales": "",
+        "spotify": "https://music.apple.com/ca/album/shinigami-single/1733840306",
+        "deezer": "https://www.deezer.com/en/track/2685734252",
+        "apple_music": "https://music.apple.com/ca/album/shinigami-single/1733840306"
+    },
+    {
+        "titre": "MATE UM BONITO HOJE MESMO!",
+        "artiste": "Marcioz",
+        "duree": "2:46",
+        "description": "Marcioz a voulu représenter les effets de la notoriété sur les individus. Des concepts abstraits comme les instrumentales electroniques et les mots répétitifs comme 'famous' symbolisent un désir obsetionnel et une peine perceptible à travers les sons. La complexité et le côté 'retro' des instrumentales au moment du drop tout en restant puissant et triste, c'est beau.",
+        "song": "Mate Um Bonito Hoje Mesmo_.mp3",
+        "image": "mate_um_bonito_hoje_mesmo",
+        "mentionLegales": "",
+        "spotify": "https://open.spotify.com/intl-fr/track/07AnEMlG1AEbloKYzgDO0k",
+        "deezer": "https://www.deezer.com/en/track/2144198427",
+        "apple_music": "https://music.apple.com/us/song/mate-um-bonito-hoje-mesmo/1333774132"
+    },
+    {
+        "titre": "BUBBLY",
+        "artiste": "Good Kid",
+        "duree": "3:07",
+        "description": "Cette chanson semble transmettre des sentiments d'incertitude, d'anxiété et un cycle continu de routine et d'agitation. Les paroles dépeignent le sentiment d'être piégé dans une existence monotone et isolante, luttant pour se libérer mais se contentant finalement de ce qui est confortable.",
+        "song": "Bubbly.mp3",
+        "image": "bubbly",
+        "mentionLegales": "",
+        "spotify": "https://open.spotify.com/intl-fr/track/7aLtFOQyLWC1L1XPN8RC3b",
+        "deezer": "https://www.deezer.com/en/track/2572402142",
+        "apple_music": "https://music.apple.com/fr/album/bubbly-single/1719818392"
+    },
+    {
+        "titre": "THE EMPTINESS MACHINE",
+        "artiste": "LINKIN PARK",
+        "duree": "3:10",
+        "description": "Ici, on sent une metaphore assez commune et que chacun peut interpreter à sa maniere. La douleur procuré par une personne ou quelque chose qui nous ronge de l'interieur, dans notre peau, et qui semble avoir pour seul but de nous faire du mal. Mais en esperant que cela sera une epreuve qui nous changera en bien, on se rend compte que c'est nous meme qui changeons pour surmonter cette douleur, en abandonnant notre ancienne personnalité, meme si ça fait mal, et se fichant de cette promesse de recevoir quelque chose enretour a la fin : le but de cette machine de torture n'est rien, elle est vide.",
+        "song": "The Emptiness Machine.mp3",
+        "image": "the_emptiness_machine",
+        "mentionLegales": "",
+        "spotify": "https://open.spotify.com/intl-fr/album/6W0Gabv5f3ugnckc6YgfJQ",
+        "deezer": "https://www.deezer.com/fr/album/638194471",
+        "apple_music": "https://music.apple.com/fr/song/the-emptiness-machine/1766137051"
+    }
+]
