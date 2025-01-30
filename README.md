@@ -1,4 +1,4 @@
-# Les-Meilleures-Musiques-Du-Monde
+# Les Meilleures Musiques Du Monde
 Cette page est le résultat d'un projet de 1ère année du BUT MMI de Champs sur Marne - Gustave Eiffel
 
 ## Protocole
